@@ -19,6 +19,9 @@ public:
 	void SetX(float _z) {
 		z = _z;
 	}
+	float GetX() {
+		return x;
+	}
 };
 
 int main() {
