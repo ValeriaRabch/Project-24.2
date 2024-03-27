@@ -28,6 +28,11 @@ public:
 	float GetZ() {
 		return z;
 	}
+	void Print() {
+		cout << "X - " << x << endl;
+		cout << "Y - " << y << endl;
+		cout << "Z - " << z << endl;
+	}
 };
 
 int main() {
