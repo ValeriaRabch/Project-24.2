@@ -35,6 +35,17 @@ public:
 	}
 };
 
+void AddFile(char* link, Point a) {
+	FILE* f;
+	f = fopen(link, "w");
+
+	fprintf(f, "X - ", a.GetX(), "\n");
+	fprintf(f, "Y - ", a.GetY(), "\n");
+	fprintf(f, "Z - ", a.GetZ(), "\n");
+
+	fclose(f);
+}
+
 int main() {
 	char link[] = {"d:\\Valeria\\file.txt"};
 	Point point;
@@ -45,6 +56,7 @@ int main() {
 	cout << "Enter z "; cin >> z;
 
 	point.SetX(x); point.SetY(y); point.SetZ(z);
+
 
 	return 0;
 }
