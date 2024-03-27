@@ -25,6 +25,9 @@ public:
 	float GetY() {
 		return y;
 	}
+	float GetZ() {
+		return z;
+	}
 };
 
 int main() {
