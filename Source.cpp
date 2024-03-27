@@ -16,6 +16,9 @@ public:
 	void SetY(float _y) {
 		y = _y;
 	}
+	void SetX(float _z) {
+		z = _z;
+	}
 };
 
 int main() {
