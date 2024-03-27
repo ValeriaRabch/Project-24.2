@@ -16,7 +16,7 @@ public:
 	void SetY(float _y) {
 		y = _y;
 	}
-	void SetX(float _z) {
+	void SetZ(float _z) {
 		z = _z;
 	}
 	float GetX() {
@@ -36,6 +36,15 @@ public:
 };
 
 int main() {
+	char link[] = {"d:\\Valeria\\file.txt"};
+	Point point;
+	float x, y, z;
+
+	cout << "Enter x "; cin >> x;
+	cout << "Enter y "; cin >> y;
+	cout << "Enter z "; cin >> z;
+
+	point.SetX(x); point.SetY(y); point.SetZ(z);
 
 	return 0;
 }
