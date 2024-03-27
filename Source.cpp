@@ -10,6 +10,9 @@ public:
 		y = 0;
 		z = 0;
 	}
+	void SetX(float _x) {
+		x = _x;
+	}
 };
 
 int main() {
