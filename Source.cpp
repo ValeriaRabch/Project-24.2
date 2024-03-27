@@ -77,6 +77,7 @@ int main() {
 	cout << "Enter z "; cin >> z;
 
 	point.SetX(x); point.SetY(y); point.SetZ(z);
+
 	AddFile(link, point);
 	FromFile(link, point);
 
